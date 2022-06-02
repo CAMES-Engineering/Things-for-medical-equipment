@@ -51,12 +51,19 @@ module mold(){
             };
         };
     };
+    translate([0,0,-5])
+    cube([125,5,5]);
+    translate([0,0,-5])
+    cube([5,125,5]);
+    translate([0,120,-5])
+    cube([125,5,5]);
+    translate([120,0,-5])
+    cube([5,125,5]);
 };
 
 
 
 mold();
-
 
 
 

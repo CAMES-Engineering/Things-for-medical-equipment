@@ -2,9 +2,9 @@
 
 
 //End piece - device
-center_diameter = 4;
-center_l = 8;
-outer_diameter = 8;
+center_diameter = 4.1;
+center_l = 7;
+outer_diameter = 7;
 fit_margin = .5;
 
 
@@ -64,7 +64,5 @@ module mold(){
 
 
 mold();
-
-
 
 
